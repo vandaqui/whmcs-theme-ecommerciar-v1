@@ -1,0 +1,6 @@
+# My Theme Configuration File
+
+name: "Ecommerciar-v1"
+author: "Vand Aquino"
+config:
+  parent: twenty-one
