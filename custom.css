@@ -1,2 +1,6 @@
 /* ---------- LOGIN PAGE ---------- */
 
+/* Remove Heading Texts From Form */
+#main-body .login-form .card .card-body .mb-4 h6, #main-body .login-form .card .card-body .mb-4 p{
+   display:none;
+}
