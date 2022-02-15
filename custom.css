@@ -1,5 +1,55 @@
-/* ---------- LOGIN PAGE ---------- */
+/* ---------- GLOBAL COLORS ----------
+:root{
+    --black: #29303a;
+    --yellow: #D0992E;
+    --lightyellowe: #FFC727;
+    --graye: #CACACA;
+}*/
 
+/* ---------- GLOBAL ---------- */
+/* Buttons */
+.btn-primary{
+    background-color: #29303a;
+    border-color: #CACACA;
+}
+/* Cart Itens Number */
+.navbar .badge-info{
+    color: #29303a;
+    background-color: #FFC727;
+}
+
+/* ---------- PLAN PAGE ---------- */
+/* Product Card Background Color */
+#main-body #products .price-table .top-head {
+    background: #29303a;
+}
+/* Product Card First Line */
+#main-body #products .price-table .top-area {
+    
+}
+/* Product Card "Most Popular" */
+#main-body #products .price-table .popular-plan {
+    color: #FFC727;
+    border-bottom: 1px solid  #D0992E;
+}
+/* Product Card Second Line */
+#main-body #products .price-table .top-area {
+    border-bottom: 1px solid  #D0992E;
+}
+/* Product Card Third Line */
+#main-body #products .price-table .price-area {
+    border-top: 1px solid  #D0992E;
+}
+/* Product Price Color*/
+#main-body #products .price-table .price-area .price{
+    color: white;
+}
+/* Product Buy Button*/
+#main-body #products .price-table .price-area a{
+    background: #FFC727;
+    color: #29303a;
+}
+/* ---------- LOGIN PAGE ---------- */
 /* Hide Heading Texts From Form */
 #main-body .login-form .card .card-body .mb-4 h6, #main-body .login-form .card .card-body .mb-4 p{
     display: none;
@@ -12,4 +62,14 @@
 #main-body .login-form .card .card-body .float-left{
     float: none !important;
     text-align: center;
+}
+/* Width of the Sign-in Button */
+#main-body .login-form .card .card-body .float-left button{
+    width: 100%;
+}
+
+/* ---------- RESET PASSWORD PAGE ---------- */
+/* Width of the Sign-in Button */
+#main-body .login-form .card .card-body .float-left button{
+    width: 100%;
 }
