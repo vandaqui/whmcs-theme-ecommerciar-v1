@@ -1,6 +1,15 @@
 /* ---------- LOGIN PAGE ---------- */
 
-/* Remove Heading Texts From Form */
+/* Hide Heading Texts From Form */
 #main-body .login-form .card .card-body .mb-4 h6, #main-body .login-form .card .card-body .mb-4 p{
-   display:none;
+    display: none;
+}
+/* Hide Remember Me From Form */
+#main-body .login-form .card .card-body .text-right{
+    display: none;
+}
+/* Center the Sign-in Button */
+#main-body .login-form .card .card-body .float-left{
+    float: none !important;
+    text-align: center;
 }
