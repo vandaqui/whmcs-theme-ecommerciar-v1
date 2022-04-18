@@ -227,9 +227,8 @@
                         <div class="col-md-4 tld-column">{lang key='orderdomain'}</div>
                         <div class="col-md-8">
                             <div class="row no-gutters">
-                                <div class="col-xs-4 col-4">{lang key='pricing.register'}</div>
-                                <div class="col-xs-4 col-4">{lang key='pricing.transfer'}</div>
-                                <div class="col-xs-4 col-4">{lang key='pricing.renewal'}</div>
+                                <div class="col-xs-4 col-6">{lang key='pricing.register'}</div>
+                                <div class="col-xs-4 col-6">{lang key='pricing.renewal'}</div>
                             </div>
                         </div>
                     </div>
@@ -245,7 +244,7 @@
                             </div>
                             <div class="col-md-8">
                                 <div class="row">
-                                    <div class="col-xs-4 col-4 text-center">
+                                    <div class="col-xs-4 col-6 text-center">
                                         {if isset($price.register) && current($price.register) > 0}
                                             {current($price.register)}<br>
                                             <small>{key($price.register)} {if key($price.register) > 1}{lang key="orderForm.years"}{else}{lang key="orderForm.year"}{/if}</small>
@@ -255,17 +254,7 @@
                                             <small>{lang key='na'}</small>
                                         {/if}
                                     </div>
-                                    <div class="col-xs-4 col-4 text-center">
-                                        {if isset($price.transfer) && current($price.transfer) > 0}
-                                            {current($price.transfer)}<br>
-                                            <small>{key($price.transfer)} {if key($price.register) > 1}{lang key="orderForm.years"}{else}{lang key="orderForm.year"}{/if}</small>
-                                        {elseif isset($price.transfer) && current($price.transfer) == 0}
-                                            <small>{lang key='orderfree'}</small>
-                                        {else}
-                                            <small>{lang key='na'}</small>
-                                        {/if}
-                                    </div>
-                                    <div class="col-xs-4 col-4 text-center">
+                                    <div class="col-xs-4 col-6 text-center">
                                         {if isset($price.renew) && current($price.renew) > 0}
                                             {current($price.renew)}<br>
                                             <small>{key($price.renew)} {if key($price.register) > 1}{lang key="orderForm.years"}{else}{lang key="orderForm.year"}{/if}</small>
