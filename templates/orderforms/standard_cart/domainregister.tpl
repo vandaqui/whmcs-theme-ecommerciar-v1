@@ -289,43 +289,6 @@
                 </div>
 
             </div>
-
-            <div class="row">
-                <div class="{if $domainTransferEnabled}col-md-6{else}col-md-8 col-md-offset-2 offset-md-2{/if}">
-                    <div class="domain-promo-box">
-
-                        <div class="clearfix">
-                            <i class="fas fa-server fa-4x"></i>
-                            <h3 class="font-size-24 no-wrap">{lang key='orderForm.addHosting'}</h3>
-                            <p class="font-bold text-warning">{lang key='orderForm.chooseFromRange'}</p>
-                        </div>
-
-                        <p>{lang key='orderForm.packagesForBudget'}</p>
-
-                        <a href="{$WEB_ROOT}/cart.php" class="btn btn-warning">
-                            {lang key='orderForm.exploreNow'}
-                        </a>
-                    </div>
-                </div>
-                {if $domainTransferEnabled}
-                    <div class="col-md-6">
-                        <div class="domain-promo-box">
-
-                            <div class="clearfix">
-                                <i class="fas fa-globe fa-4x"></i>
-                                <h3 class="font-size-22">{lang key='orderForm.transferToUs'}</h3>
-                                <p class="font-bold text-primary">{lang key='orderForm.transferExtend'}*</p>
-                            </div>
-
-                            <a href="{$WEB_ROOT}/cart.php?a=add&domain=transfer" class="btn btn-primary">
-                                {lang key='orderForm.transferDomain'}
-                            </a>
-
-                            <p class="small">* {lang key='orderForm.extendExclusions'}</p>
-                        </div>
-                    </div>
-                {/if}
-            </div>
         </div>
     </div>
 </div>
