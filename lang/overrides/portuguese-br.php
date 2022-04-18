@@ -1,6 +1,6 @@
 <?php
 //Front Page
-$_LANG['secureYourDomainShort'] = "Garanta Seu Domínio LOGO!";
+$_LANG['secureYourDomainShort'] = "Garanta Seu Domínio!";
 $_LANG['exampledomain'] = "Exemplo: www.meusite.com.br";
 $_LANG['howCanWeHelp'] = "Precisa de Ajuda?";
 $_LANG['homepage']['yourAccount'] = "Sua Conta";
@@ -11,3 +11,20 @@ $_LANG['homepage']['makeAPayment'] = "Pagamentos";
 $_LANG['browseProducts'] = "Saber Mais";
 $_LANG['secureYourDomain'] = "";
 $_LANG['clientHomePanels']['productsAndServices'] = "Produtos e Serviços";
+
+//Reset Pass Page
+$_LANG['pwresetemailneeded'] = "";
+$_LANG['pwresetrequested'] = "Solicitação de redefinição de senha enviado";
+
+//Support
+$_LANG['createNewSupportRequest'] = "Abrir um Novo Chamado";
+$_LANG['chooseFile'] = "Escolher arquivo";
+$_LANG['support']['requestor']['owner'] = "Proprietário";
+$_LANG['navBrowseProductsServices'] = "Ver Todos";
+
+//Nav Menu
+$_LANG['navregisterdomain'] = "Registrar Domínio";
+$_LANG['clientareanavservices'] = "Meus Produtos";
+
+//Client Area
+$_LANG['clientOwner'] = "Proprietário";

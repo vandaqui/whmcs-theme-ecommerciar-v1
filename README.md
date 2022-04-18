@@ -7,5 +7,5 @@ Theme for WHMCS
 ###### Languages
 > /lang
 <br>
-###### Remove Add Hosting from Domain Validation Page
+###### Remove Add Hosting from Domain Validation Page, Also Adjust Column Values
 > /templates/orderforms/standard_cart/domainregister.tpl
