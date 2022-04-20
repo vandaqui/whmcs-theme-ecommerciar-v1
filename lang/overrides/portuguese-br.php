@@ -11,6 +11,7 @@ $_LANG['homepage']['makeAPayment'] = "Pagamentos";
 $_LANG['browseProducts'] = "Saber Mais";
 $_LANG['secureYourDomain'] = "";
 $_LANG['clientHomePanels']['productsAndServices'] = "Produtos e Serviços";
+$_LANG['viewAllPricing'] = "Ver Valores de Domínio";
 
 //Reset Pass Page
 $_LANG['pwresetemailneeded'] = "";
