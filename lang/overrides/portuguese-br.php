@@ -1,6 +1,6 @@
 <?php
 //Front Page
-$_LANG['secureYourDomainShort'] = "Garanta Seu Domínio!";
+$_LANG['secureYourDomainShort'] = "Digite Abaixo e Garanta Seu WebSite!";
 $_LANG['exampledomain'] = "Exemplo: www.meusite.com.br";
 $_LANG['howCanWeHelp'] = "Precisa de Ajuda?";
 $_LANG['homepage']['yourAccount'] = "Sua Conta";
@@ -29,3 +29,6 @@ $_LANG['clientareanavservices'] = "Meus Produtos";
 
 //Client Area
 $_LANG['clientOwner'] = "Proprietário";
+
+//Cart
+$_LANG['orderpromovalidatebutton'] = "Aplicar CUPOM!";
