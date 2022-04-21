@@ -17,6 +17,13 @@
     color: #29303a;
     background-color: #FFC727;
 }
+/* Footer */
+footer{
+    padding: 10px 0 10px !important;
+}
+footer .copyright{
+    margin: 10px !important;
+}
 /* ---------- CLIENT HOMEPAGE ---------- */
 /* HREF Right Below Domain Search */
 #frmDomainHomepage .home-domain-search a{

@@ -1,7 +1,7 @@
 <?php
 //Front Page
 $_LANG['secureYourDomainShort'] = "Digite Abaixo e Garanta Seu WebSite!";
-$_LANG['exampledomain'] = "Exemplo: www.meusite.com.br";
+$_LANG['exampledomain'] = "www.exemplo.com.br";
 $_LANG['howCanWeHelp'] = "Precisa de Ajuda?";
 $_LANG['homepage']['yourAccount'] = "Sua Conta";
 $_LANG['homepage']['manageServices'] = "Meus Produtos";
@@ -35,3 +35,4 @@ $_LANG['orderpromovalidatebutton'] = "Aplicar CUPOM!";
 
 //Custom (Not Native)
 $_LANG['domainPlanFoward'] = "Escolher Um Plano";
+$_LANG['searchDomain'] = "Verificar";
