@@ -32,3 +32,6 @@ $_LANG['clientOwner'] = "Proprietário";
 
 //Cart
 $_LANG['orderpromovalidatebutton'] = "Aplicar CUPOM!";
+
+//Custom (Not Native)
+$_LANG['domainPlanFoward'] = "Escolher Um Plano";
