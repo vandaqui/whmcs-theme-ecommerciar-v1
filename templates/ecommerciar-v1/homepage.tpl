@@ -1,51 +1,23 @@
-{if !empty($productGroups) || $registerdomainenabled || $transferdomainenabled}
-    <h2 class="text-center m-4">{lang key='clientHomePanels.productsAndServices'}</h2>
+<h2 class="text-center m-4">{lang key='ourMainServices'}</h2>
 
-    <div class="card-columns home">
-        {foreach $productGroups as $productGroup}
-
-            <div class="card mb-3">
-                <div class="card-body p-lg-4 p-xl-5 text-center">
-                    <h3 class="card-title pricing-card-title">
-                        {$productGroup->name}
-                    </h3>
-                    <p>{$productGroup->tagline}</p>
-                    <a href="{$productGroup->getRoutePath()}" class="btn btn-block btn-outline-primary">
-                        {lang key='browseProducts'}
-                    </a>
-                </div>
-            </div>
-
-        {/foreach}
-
-        {if $registerdomainenabled}
-            <div class="card mb-3">
-                <div class="card-body p-lg-4 p-xl-5 text-center">
-                    <h3 class="card-title pricing-card-title">
-                        {lang key='orderregisterdomain'}
-                    </h3>
-                    <p>{lang key='secureYourDomain'}</p>
-                    <a href="{$WEB_ROOT}/cart.php?a=add&domain=register" class="btn btn-block btn-outline-primary">
-                        {lang key='navdomainsearch'}
-                    </a>
-                </div>
-            </div>
-        {/if}
-        {if $transferdomainenabled}
-            <div class="card mb-3">
-                <div class="card-body p-lg-4 p-xl-5 text-center">
-                    <h3 class="card-title pricing-card-title">
-                        {lang key='transferYourDomain'}
-                    </h3>
-                    <p>{lang key='transferExtend'}</p>
-                    <a href="{$WEB_ROOT}/cart.php?a=add&domain=transfer" class="btn btn-block btn-outline-primary">
-                        {lang key='transferYourDomain'}
-                    </a>
-                </div>
-            </div>
-        {/if}
+<div class="row my-5 action-icon-btns">
+    <div class="col-6 col-md-4 col-lg">
+        <a href="https://ecommerciar.com/cliente/store/planos-ecommerciar" class="card-accent-teal">
+            <figure class="ico-container">
+                <i class="fal fa-box"></i>
+            </figure>
+            {lang key='ourPlans'}
+        </a>
     </div>
-{/if}
+    <div class="col-6 col-md-4 col-lg">
+        <a href="https://ecommerciar.com/cliente/store/outros-servicos" class="card-accent-pomegranate">
+            <figure class="ico-container">
+                <i class="fal fa-plus-square"></i>
+            </figure>
+            {lang key='servicosAdicionais'}
+        </a>
+    </div>
+</div>
 
 <h2 class="text-center m-4">{lang key='howCanWeHelp'}</h2>
 

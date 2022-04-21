@@ -36,3 +36,6 @@ $_LANG['orderpromovalidatebutton'] = "Aplicar CUPOM!";
 //Custom (Not Native)
 $_LANG['domainPlanFoward'] = "Escolher Um Plano";
 $_LANG['searchDomain'] = "Verificar";
+$_LANG['ourMainServices'] = "Produtos e Serviços";
+$_LANG['ourPlans'] = "Ver Planos";
+$_LANG['servicosAdicionais'] = "Serviços Adicionais";
