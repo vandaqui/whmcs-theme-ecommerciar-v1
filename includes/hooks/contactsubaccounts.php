@@ -16,3 +16,10 @@ add_hook('ClientAreaSecondarySidebar', 1, function(MenuItem $secondarySidebar)
                $secondarySidebar->removeChild('Client Contacts');
    }
 });
+
+add_hook('ClientAreaPrimarySidebar', 1, function(MenuItem $primarySidebar)
+{
+    if(!is_null($primarySidebar->getChild('Account')) && !is_null($primarySidebar->getChild('Account')->getChild('Contacts/Sub-Accounts'))){
+    $primarySidebar->getChild('Account')->removeChild('Contacts/Sub-Accounts');
+    }
+});
