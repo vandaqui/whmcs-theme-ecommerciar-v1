@@ -56,7 +56,7 @@
                     </ul>
                 {/if}
 
-                <a href="{routePath('domain-pricing')}" class="btn btn-link btn-sm float-right">{lang key='viewAllPricing'}</a>
+                <a class="domain-foward" href="https://ecommerciar.com/cliente/store/planos-ecommerciar" class="btn btn-link btn-sm float-right">{lang key='viewAllPricing'}</a>
             </div>
         </div>
     </div>
