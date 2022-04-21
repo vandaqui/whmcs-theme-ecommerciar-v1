@@ -17,7 +17,12 @@
     color: #29303a;
     background-color: #FFC727;
 }
-
+/* ---------- CLIENT HOMEPAGE ---------- */
+/* HREF Right Below Domain Search */
+#frmDomainHomepage .home-domain-search a{
+    display: flex;
+    justify-content: center;
+}
 /* ---------- PLAN PAGE ---------- */
 /* Product Card Background Color */
 #main-body #products .price-table .top-head {
