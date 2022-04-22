@@ -34,6 +34,10 @@ footer .copyright{
 header .navbar-nav a{
     color: #FFFFFF !important;
 }
+/* NavBar Dropdown Color */
+header .navbar-nav ul li a{
+    color: #29303A !important;
+}
 /* NavBar Shopping Cart Color */
 header .toolbar .nav-link{
     color: #757c09 !important;
@@ -49,10 +53,6 @@ header .toolbar .nav-link{
 /* Product Card Background Color */
 #main-body #products .price-table .top-head {
     background: #29303a;
-}
-/* Product Card First Line */
-#main-body #products .price-table .top-area {
-    
 }
 /* Product Card "Most Popular" */
 #main-body #products .price-table .popular-plan {
