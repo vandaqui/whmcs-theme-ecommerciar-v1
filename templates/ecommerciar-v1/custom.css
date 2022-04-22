@@ -20,11 +20,26 @@
 /* Footer */
 footer{
     padding: 10px 0 10px !important;
+    background-color: #29303A !important;
 }
 footer .copyright{
     margin: 10px !important;
 }
 /* ---------- CLIENT HOMEPAGE ---------- */
+/* NavBar Background Color */
+.navbar{
+    background-color: #29303A;
+}
+/* NavBar Text Color */
+header .navbar-nav a{
+    color: #FFFFFF !important;
+}
+/* NavBar Shopping Cart Color */
+header .toolbar .nav-link{
+    color: #757c09 !important;
+    background-color: white;
+}
+
 /* HREF Right Below Domain Search */
 #frmDomainHomepage .home-domain-search a{
     display: flex;

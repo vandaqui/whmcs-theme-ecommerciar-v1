@@ -19,7 +19,7 @@ All changes made here were done to suit my needs only. It might not be ideal for
 > /templates/orderforms/standard_cart/domainregister.tpl
 
 ###### Notes
-> as of the pathroutes are encoded by default, you might find a few hardcoded lines.
+> As of the pathroutes are encoded by default, you might find a few hardcoded lines.
 
 ## Useful Links
 
