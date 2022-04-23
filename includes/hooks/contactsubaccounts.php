@@ -2,6 +2,7 @@
 
 use WHMCS\View\Menu\Item as MenuItem;
 
+//Client Area Logged in Dropdown
 add_hook('ClientAreaSecondaryNavbar', 1, function (MenuItem $secondaryNavbar)
 {
    if (!is_null($secondaryNavbar->getChild('Account'))) {
@@ -10,6 +11,7 @@ add_hook('ClientAreaSecondaryNavbar', 1, function (MenuItem $secondaryNavbar)
    }
 });
 
+//Client Area Logged in Dropdown
 add_hook('ClientAreaSecondarySidebar', 1, function(MenuItem $secondarySidebar)
 {
    if (!is_null($secondarySidebar->getChild('Client Contacts'))) {
@@ -17,9 +19,11 @@ add_hook('ClientAreaSecondarySidebar', 1, function(MenuItem $secondarySidebar)
    }
 });
 
+//Client Area Logged in Dropdown
 add_hook('ClientAreaPrimarySidebar', 1, function(MenuItem $primarySidebar)
 {
     if(!is_null($primarySidebar->getChild('Account')) && !is_null($primarySidebar->getChild('Account')->getChild('Contacts/Sub-Accounts'))){
     $primarySidebar->getChild('Account')->removeChild('Contacts/Sub-Accounts');
     }
 });
+
