@@ -18,7 +18,7 @@
     background-color: #FFC727;
 }
 /* Footer */
-footer{
+footer.footer{
     padding: 10px 0 10px !important;
     background-color: #29303A !important;
 }
@@ -43,13 +43,11 @@ header .toolbar .nav-link{
     color: #757c09 !important;
     background-color: white;
 }
-
-/* HREF Right Below Domain Search */
-#frmDomainHomepage .home-domain-search a{
-    display: flex;
-    justify-content: center;
+/* Items Icons Color */
+.action-icon-btns a .ico-container i{
+    color: #29303A;
 }
-/* ---------- PLAN PAGE ---------- */
+/* ---------- ADD PLAN PAGE ---------- */
 /* Product Card Background Color */
 #main-body #products .price-table .top-head {
     background: #29303a;
@@ -75,6 +73,36 @@ header .toolbar .nav-link{
 #main-body #products .price-table .price-area a{
     background: #FFC727;
     color: #29303a;
+}
+/* ---------- ADDITIONAL SERVICES PAGE ---------- */
+/* Hide Headline Tag*/
+#main-body #order-standard_cart .header-lined h1{
+    display: none;
+}
+/* Center Headline*/
+#order-standard_cart .products .product header{
+    display: flex;
+    justify-content: center;
+}
+/* Bold Title headline*/
+#order-standard_cart .products .product header span{
+    font-weight: 600;
+}
+/* Change Button Color Text Size*/
+#main-body #order-standard_cart .btn-success{
+    background-color: #FED151;
+    border-color: #dbb447;
+    color: #29303A;
+    padding: 10px;
+}
+/* Center Buy Button*/
+#order-standard_cart .products .product footer{
+    width: 100% !important;
+}
+/* Description*/
+#order-standard_cart .products .product div.product-desc{
+    font-size: 1em !important;
+    padding: 8px 24px !important;
 }
 /* ---------- LOGIN PAGE ---------- */
 /* Hide Heading Texts From Form */
