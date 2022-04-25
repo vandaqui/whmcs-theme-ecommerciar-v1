@@ -18,3 +18,11 @@ add_hook('ClientAreaPrimaryNavbar', 1, function (MenuItem $primaryNavbar) {
        $primaryNavbar->getChild('Support')->removeChild('Knowledgebase');
    }
 });
+
+//Client Area Logged in Support DropDown
+add_hook('ClientAreaSecondarySidebar', 1, function(MenuItem $secondarySidebar)
+{
+    if(!is_null($secondarySidebar->getChild('Support'))){
+    $secondarySidebar->getChild('Support')->removeChild('Knowledgebase');
+    }
+});
