@@ -1,5 +1,6 @@
 <?php
-//Front Page
+
+//Home Page
 $_LANG['secureYourDomainShort'] = "Digite Abaixo e Garanta Seu WebSite!";
 $_LANG['exampledomain'] = "www.exemplo.com.br";
 $_LANG['howCanWeHelp'] = "Precisa de Ajuda?";
@@ -12,6 +13,8 @@ $_LANG['browseProducts'] = "Saber Mais";
 $_LANG['secureYourDomain'] = "";
 $_LANG['clientHomePanels']['productsAndServices'] = "Produtos e Serviços";
 $_LANG['viewAllPricing'] = "Ver Valores de Domínio";
+$_LANG['announcementstitle'] = "Atualizações";
+
 
 //Reset Pass Page
 $_LANG['pwresetemailneeded'] = "";
