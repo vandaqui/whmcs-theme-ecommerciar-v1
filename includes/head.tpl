@@ -19,6 +19,18 @@
 </script>
 <script src="{assetPath file='scripts.min.js'}?v={$versionHash}"></script>
 
+<!-- Remove Branding -->
+<script>
+$(document).ready(function() {
+
+  $("[href*='whmcs.com']").each(function(){
+    $(this).parent().remove();
+  });
+  
+});
+</script>
+<!-- Remove Branding Ends -->
+
 {if $templatefile == "viewticket" && !$loggedin}
   <meta name="robots" content="noindex" />
 {/if}
