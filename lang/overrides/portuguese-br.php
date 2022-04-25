@@ -1,5 +1,8 @@
 <?php
 
+if (!defined("WHMCS"))
+    die("This file cannot be accessed directly");
+
 //Home Page
 $_LANG['secureYourDomainShort'] = "Digite Abaixo e Garanta Seu WebSite!";
 $_LANG['exampledomain'] = "www.exemplo.com.br";
