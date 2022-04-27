@@ -17,6 +17,7 @@ $_LANG['secureYourDomain'] = "";
 $_LANG['clientHomePanels']['productsAndServices'] = "Produtos e Serviços";
 $_LANG['viewAllPricing'] = "Ver Valores de Domínio";
 $_LANG['announcementstitle'] = "Atualizações";
+$_LANG['homepage']['submitTicket'] = "Abrir um Chamado";
 
 
 //Reset Pass Page
