@@ -19,6 +19,10 @@ $_LANG['viewAllPricing'] = "Ver Valores de Domínio";
 $_LANG['announcementstitle'] = "Atualizações";
 $_LANG['homepage']['submitTicket'] = "Abrir um Chamado";
 
+//Login Page
+$_LANG['userLogin']['notRegistered'] = "Não é registrado?";
+$_LANG['userLogin']['createAccount'] = "CRIAR CONTA";
+
 
 //Reset Pass Page
 $_LANG['pwresetemailneeded'] = "";
@@ -36,9 +40,14 @@ $_LANG['clientareanavservices'] = "Meus Produtos";
 
 //Client Area
 $_LANG['clientOwner'] = "Proprietário";
+$_LANG['navAccountSecurity'] = "Segurança da Conta";
 
 //Cart
 $_LANG['orderpromovalidatebutton'] = "Aplicar CUPOM!";
+
+//Register Page
+$_LANG['orderForm']['requiredField'] = "(campos obrigatórios marcados com *)";
+$_LANG['orderForm']['emailAddress'] = "E-mail";
 
 //Custom (Not Native)
 $_LANG['domainPlanFoward'] = "Escolher Um Plano";

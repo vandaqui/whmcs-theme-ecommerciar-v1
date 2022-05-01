@@ -164,7 +164,7 @@
 
                     <div class="card mb-4">
                         <div class="card-body p-4">
-                            <h3 class="card-title">{lang key='orderadditionalrequiredinfo'}<br><i><small>{lang key='orderForm.requiredField'}</small></i></h3>
+                            <h3 class="card-title">{lang key='orderadditionalrequiredinfo'}<br></h3>
 
                             <div class="row">
                                 {if $customfields}
