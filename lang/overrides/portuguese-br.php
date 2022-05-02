@@ -54,6 +54,7 @@ $_LANG['cartproductaddonsnone'] = "Nenhum adicional extra disponível para seus 
 $_LANG['clientareaviewaddons'] = "Ver Extras";
 $_LANG['cartproductaddons'] = "Extras";
 $_LANG['ordernowbutton'] = "Adquirir";
+$_LANG['orderForm']['returnToClientArea'] = "Retornar a Área do Cliente";
 
 //Cart
 $_LANG['orderpromovalidatebutton'] = "Aplicar CUPOM!";
