@@ -3,6 +3,9 @@
 if (!defined("WHMCS"))
     die("This file cannot be accessed directly");
 
+//Geral
+$_LANG['apply'] = "Aplicar";
+
 //Home Page
 $_LANG['secureYourDomainShort'] = "Digite Abaixo e Garanta Seu WebSite!";
 $_LANG['exampledomain'] = "www.exemplo.com.br";

@@ -24,7 +24,14 @@ add_hook('ClientAreaPrimaryNavbar', 1, function (MenuItem $primaryNavbar) {
 add_hook('ClientAreaSecondarySidebar', 1, function (MenuItem $secondarySidebar)
 {
    if (!is_null($secondarySidebar->getChild('My Domains Actions'))) {
-               $secondarySidebar->getChild('My Domains Actions')
-                               ->removeChild('Register a New Domain');
+               $secondarySidebar->getChild('My Domains Actions')->removeChild('Register a New Domain');
+   }
+});
+
+//Client Area Available Addons > Register a New Domain
+add_hook('ClientAreaSecondarySidebar', 2, function (MenuItem $secondarySidebar)
+{
+   if (!is_null($secondarySidebar->getChild('Actions'))) {
+               $secondarySidebar->removeChild('Actions');
    }
 });
