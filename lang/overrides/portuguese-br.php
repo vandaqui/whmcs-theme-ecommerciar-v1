@@ -26,7 +26,6 @@ $_LANG['homepage']['submitTicket'] = "Abrir um Chamado";
 $_LANG['userLogin']['notRegistered'] = "Não é registrado?";
 $_LANG['userLogin']['createAccount'] = "CRIAR CONTA";
 
-
 //Reset Pass Page
 $_LANG['pwresetemailneeded'] = "";
 $_LANG['pwresetrequested'] = "Solicitação de redefinição de senha enviado";
@@ -44,6 +43,17 @@ $_LANG['clientareanavservices'] = "Meus Produtos";
 //Client Area
 $_LANG['clientOwner'] = "Proprietário";
 $_LANG['navAccountSecurity'] = "Segurança da Conta";
+$_LANG['yourProfile'] = "Seu perfil";
+$_LANG['userProfile']['profile'] = "Perfil";
+$_LANG['userProfile']['changeEmail'] = "Mudar Endereço de E-mail";
+$_LANG['userProfile']['notVerified'] = "Email Não Verificado";
+$_LANG['userProfile']['verified'] = "E-mail Verificado";
+$_LANG['sidebars']['viewAccount']['changePassword'] = "Alterar Senha";
+$_LANG['clientareaviewaddons'] = "Ver Extras";
+$_LANG['cartproductaddonsnone'] = "Nenhum adicional extra disponível para seus serviços contratados";
+$_LANG['clientareaviewaddons'] = "Ver Extras";
+$_LANG['cartproductaddons'] = "Extras";
+$_LANG['ordernowbutton'] = "Adquirir";
 
 //Cart
 $_LANG['orderpromovalidatebutton'] = "Aplicar CUPOM!";
