@@ -41,6 +41,7 @@ $_LANG['navregisterdomain'] = "Registrar Domínio";
 $_LANG['clientareanavservices'] = "Meus Produtos";
 
 //Client Area
+$_LANG['navservicesorder'] = "Escolher Plano";
 $_LANG['clientOwner'] = "Proprietário";
 $_LANG['navAccountSecurity'] = "Segurança da Conta";
 $_LANG['yourProfile'] = "Seu perfil";
@@ -55,6 +56,8 @@ $_LANG['clientareaviewaddons'] = "Ver Extras";
 $_LANG['cartproductaddons'] = "Extras";
 $_LANG['ordernowbutton'] = "Adquirir";
 $_LANG['orderForm']['returnToClientArea'] = "Retornar a Área do Cliente";
+$_LANG['invoicesPaymentPending'] = "Pagamento em Processo";
+
 
 //Cart
 $_LANG['orderpromovalidatebutton'] = "Aplicar CUPOM!";
