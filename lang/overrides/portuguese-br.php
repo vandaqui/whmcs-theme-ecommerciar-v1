@@ -61,6 +61,7 @@ $_LANG['invoicesPaymentPending'] = "Pagamento em Processo";
 
 //Cart
 $_LANG['orderpromovalidatebutton'] = "Aplicar CUPOM!";
+$_LANG['orderForm']['qty'] = "Quantidade";
 
 //Register Page
 $_LANG['orderForm']['requiredField'] = "(campos obrigatórios marcados com *)";

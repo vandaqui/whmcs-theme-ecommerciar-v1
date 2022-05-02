@@ -104,6 +104,29 @@ header .toolbar .nav-link{
     font-size: 1em !important;
     padding: 8px 24px !important;
 }
+/* ---------- CART ---------- */
+/* Update Quantity Button*/
+#order-standard_cart .view-cart-items .item-qty button{
+    font-size: 1em !important;
+    background-color: #fed151 !important;
+}
+/* Order Fprm Colors*/
+#order-standard_cart .view-cart-items-header, #order-standard_cart .empty-cart .btn{
+    color: #29303a !important;
+    background-color: #fed151 !important;
+}
+/* Footer Border Color*/
+#order-standard_cart .view-cart-items{
+    border-bottom: 2px solid #29303a !important;
+}
+/* Order Details-Resumo*/
+#order-standard_cart .order-summary{
+    background-color: #29303a !important;
+}
+/* Buy Button Width*/
+#main-body #order-standard_cart .btn-success{
+    width: 100%;
+}
 /* ---------- LOGIN PAGE ---------- */
 /* Hide Heading Texts From Form */
 #main-body .login-form .card .card-body .mb-4 h6, #main-body .login-form .card .card-body .mb-4 p{
