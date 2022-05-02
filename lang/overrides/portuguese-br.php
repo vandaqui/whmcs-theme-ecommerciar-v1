@@ -73,3 +73,6 @@ $_LANG['searchDomain'] = "Verificar";
 $_LANG['ourMainServices'] = "Produtos e Serviços";
 $_LANG['ourPlans'] = "Ver Planos";
 $_LANG['servicosAdicionais'] = "Serviços Adicionais";
+
+//Plan Page
+$_LANG['shoppingCartProductPerMonth'] = "<span>:price</span>/:countmês";
