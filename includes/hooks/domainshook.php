@@ -35,3 +35,17 @@ add_hook('ClientAreaSecondarySidebar', 2, function (MenuItem $secondarySidebar)
                $secondarySidebar->removeChild('Actions');
    }
 });
+
+?>
+
+
+<?php
+ 
+use WHMCS\View\Menu\Item;
+
+// This hook will remove the Register a New Domain panel from the client area
+add_hook('ClientAreaHomepagePanels', 1, function (Item $homePagePanels) {
+    if (!is_null($homePagePanels->getChild('Register a New Domain'))) {
+        $homePagePanels->removeChild('Register a New Domain');
+    }
+});
